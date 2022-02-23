@@ -18,7 +18,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	@GetMapping("/")
 	@ResponseBody
 	String helloDocker() {
-		return "Hello Docker, Welcome";
+		return "Hello Docker, Welcome to devops";
 	}
 
 }

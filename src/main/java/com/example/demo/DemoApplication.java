@@ -18,7 +18,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	@GetMapping("/")
 	@ResponseBody
 	String helloDocker() {
-		return "Hello Docker, Welcome to Divya's first CI CD demo project";
+		return "Hello Docker, Welcome to Hari's first CI CD demo project.......";
 	}
 
 }
